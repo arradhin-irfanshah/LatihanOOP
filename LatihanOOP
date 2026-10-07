@@ -1,0 +1,14 @@
+package latihanoop;
+
+
+public class Main {
+    public static void main(String[] args) {
+        Siswa siswa1 = new Siswa();
+        Siswa siswa2 = new Siswa();
+        Siswa siswa3 = new Siswa();
+
+        System.out.println(siswa1);              // cetak alamat object
+        System.out.println(siswa1 == siswa2);    // false: dua object berbeda
+       
+    }
+}
